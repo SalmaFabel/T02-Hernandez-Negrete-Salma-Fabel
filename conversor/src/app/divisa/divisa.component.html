@@ -1,0 +1,14 @@
+<body>
+    <header>Divisa</header>
+    <p>Convertir Dolares a pesos</p>
+    <p>Dolares</p>
+    <input type="number" class="form-control" placeholder="Ingresa Dolares" id="val1" [(ngModel)]="val1">
+    <p>Pesos</p>
+    <input type="text" value="1 Peso" name="Pesos">
+    <p>Tipo de cambio</p>
+    <input type="number" class="form-control" placeholder= "Ingresa el tipo de cambio" id="cambio" [(ngModel)]="cambio">
+    <br>
+    <p>El resultado en Pesos = {{rta}}</p>
+    <br>
+    <button class="btn" (click)="Operacion()">Convertir</button>
+    </body>

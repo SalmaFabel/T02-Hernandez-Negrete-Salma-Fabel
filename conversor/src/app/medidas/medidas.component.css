@@ -1,0 +1,15 @@
+body{
+   text-align: center;
+   font: 17px Helvetica;
+}
+header{
+    font: 24px Helvetica;
+}
+.btn {
+    color: white;
+    background: transparent;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    font: 17px Helvetica;
+}

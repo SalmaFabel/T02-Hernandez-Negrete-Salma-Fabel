@@ -1,0 +1,12 @@
+<body>
+    <header>Temperatura</header>
+    <p>Convertir Centigrados a Fahrenheit</p>
+    <p>Centigrados</p>
+    <input type="number" class="form-control" placeholder="Ingresa Centigrados" id="val1" [(ngModel)]="val1">
+    <p>Fahrenheit</p>
+    <input type="text" value="1 Fahrenheit" name="Fahrenheit">
+    <br>
+    <p>El resultado en Fahrenheit = {{rta}}</p>
+    <br>
+    <button class="btn" (click)="Operacion()">Convertir</button>
+    </body>
